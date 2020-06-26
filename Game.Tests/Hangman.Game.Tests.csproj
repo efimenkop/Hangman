@@ -23,7 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Game\Hangman.Game.csproj" />
     <ProjectReference Include="..\Lib\Hangman.Lib.csproj" />
-    <ProjectReference Include="..\Spiel\Hangman.Spiel.csproj" />
   </ItemGroup>
 
 </Project>

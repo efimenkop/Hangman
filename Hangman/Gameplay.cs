@@ -1,7 +1,6 @@
-﻿using System;
+﻿using Hangman.Lib;
+using System;
 using System.Text.RegularExpressions;
-using Hangman.Game;
-using Hangman.Lib;
 
 namespace Hangman
 {
@@ -41,7 +40,7 @@ namespace Hangman
             {
                 var buchstabe = _readKey();
 
-                if (buchstabe == (char) ConsoleKey.Escape)
+                if (buchstabe == (char)ConsoleKey.Escape)
                     break;
 
                 if (!char.IsLetter(buchstabe))

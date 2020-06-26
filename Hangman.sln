@@ -7,15 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman", "Hangman\Hangman.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman.Tests", "Hangman.Tests\Hangman.Tests.csproj", "{A02B37A1-7B94-495D-9A84-F3D398E96E33}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman.Lib", "Lib\Hangman.Lib.csproj", "{0177F1DF-4612-498D-9FCE-FB551E78CB3E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman.Game", "Game\Hangman.Game.csproj", "{4015384E-0417-4D96-8889-C9410885690B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman.Game.Tests", "Game.Tests\Hangman.Game.Tests.csproj", "{FA8C9183-AED7-4C61-9E91-A05A29A1F6D7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{DC9C692D-3C0C-41C8-83B5-73C1E968D3C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman.Lib", "Hangman.Lib\Hangman.Lib.csproj", "{0177F1DF-4612-498D-9FCE-FB551E78CB3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{05A99F1F-D41A-4E3B-AA4B-8E2B137609A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.Lib.Tests", "Hangman.Lib.Tests\Hangman.Lib.Tests.csproj", "{7B88A614-77C5-460F-8444-241162E6ACA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,22 +31,17 @@ Global
 		{0177F1DF-4612-498D-9FCE-FB551E78CB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0177F1DF-4612-498D-9FCE-FB551E78CB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0177F1DF-4612-498D-9FCE-FB551E78CB3E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4015384E-0417-4D96-8889-C9410885690B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4015384E-0417-4D96-8889-C9410885690B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4015384E-0417-4D96-8889-C9410885690B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4015384E-0417-4D96-8889-C9410885690B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA8C9183-AED7-4C61-9E91-A05A29A1F6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA8C9183-AED7-4C61-9E91-A05A29A1F6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA8C9183-AED7-4C61-9E91-A05A29A1F6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA8C9183-AED7-4C61-9E91-A05A29A1F6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B88A614-77C5-460F-8444-241162E6ACA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B88A614-77C5-460F-8444-241162E6ACA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B88A614-77C5-460F-8444-241162E6ACA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B88A614-77C5-460F-8444-241162E6ACA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0177F1DF-4612-498D-9FCE-FB551E78CB3E} = {05A99F1F-D41A-4E3B-AA4B-8E2B137609A4}
-		{4015384E-0417-4D96-8889-C9410885690B} = {DC9C692D-3C0C-41C8-83B5-73C1E968D3C8}
-		{FA8C9183-AED7-4C61-9E91-A05A29A1F6D7} = {DC9C692D-3C0C-41C8-83B5-73C1E968D3C8}
+		{7B88A614-77C5-460F-8444-241162E6ACA7} = {05A99F1F-D41A-4E3B-AA4B-8E2B137609A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB92CD39-4D20-4001-A538-E8394FBEA532}
