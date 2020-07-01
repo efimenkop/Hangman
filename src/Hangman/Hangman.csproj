@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Spiel\Hangman.Spiel.csproj" />
+    <PackageReference Include="Ensure.That" Version="9.2.0" />
   </ItemGroup>
 
 </Project>

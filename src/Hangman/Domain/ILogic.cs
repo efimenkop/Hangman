@@ -1,4 +1,4 @@
-﻿namespace Hangman.Lib
+﻿namespace Hangman.Domain
 {
     public interface ILogic
     {
